@@ -31,8 +31,16 @@ In the workspace directory, you can run:
 
 ### `pnpm website:dev`
 
-Runs the website project in the development mode.\
+Runs the website project in the development mode.
 
 ### `pnpm api:serve`
 
-Build and serve the api project.\
+Build and serve the api project.
+
+> notice that you need a running mongodb instance to run the api. You can use the following command to create a mongodb container:
+
+> `docker run -d -p 27017:27017 --name mongo-db mongo`
+
+<br>
+
+> if you created the container with the name `mongo-db` you can use the command `docker start mongo-db` to start the container once it is stopped.
