@@ -11,7 +11,6 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-require('dotenv').config;
 dotenv.config({ path: '../.env' });
 
 connectDB();
