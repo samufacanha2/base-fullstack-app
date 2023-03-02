@@ -16,7 +16,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "api": ["packages/api/src/index.ts"]
+      "api": ["packages/api/src/app.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
