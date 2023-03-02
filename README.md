@@ -3,6 +3,7 @@
 ## Included:
 
 - basic tsconfig, eslint and prettier configuration
+- husky pre-commit hooks (lint-staged, console.log check, conventional commits enforcement)
 
 <br/>
 
